@@ -1,0 +1,123 @@
+html, body {
+  width: 100%;
+  height: 100vh;
+}
+
+#app {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: .5rem;
+  font-size: 5rem;
+}
+
+.vtb-wrapper {
+  justify-content: center;
+}
+
+.vtb-item-child {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.vtb-item-players .vtb-player {
+  padding: 0;
+  width: 10rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.vtb-item-child:before, .vtb-item-child:after, .vtb-item-parent:after {
+  background-color: #fff;
+}
+
+.vtb-item-players .vtb-player {
+  position: relative;
+}
+
+.vtb-item-players .vtb-player span {
+  margin-right: 0.6rem;
+  margin-left: 0.2rem;
+}
+
+.vtb-item-players .winner, .vtb-item-players .winner.highlight, .vtb-item-players .defeated, .vtb-item-players .defeated.highlight {
+  background-color: transparent;
+}
+
+.type {
+  border: 2px solid #fff;
+  background-color: #bdbdbd;
+}
+
+.normal {
+  background-image: url(../images/icon-normal.png);
+  background-size: cover;
+}
+
+.dragon {
+  background-image: url(../images/icon-dragon.png);
+  background-size: cover;
+}
+
+.electric {
+  background-image: url(../images/icon-electric.png);
+  background-size: cover;
+}
+
+.ground {
+  background-image: url(../images/icon-ground.png);
+  background-size: cover;
+}
+
+.fire {
+  background-image: url(../images/icon-fire.png);
+  background-size: cover;
+}
+
+.ghost {
+  background-image: url(../images/icon-ghost.png);
+  background-size: cover;
+}
+
+.rock {
+  background-image: url(../images/icon-rock.png);
+  background-size: cover;
+}
+
+.dark {
+  background-image: url(../images/icon-dark.png);
+  background-size: cover;
+}
+
+.fairy {
+  background-image: url(../images/icon-fairy.png);
+  background-size: cover;
+}
+
+.bug {
+  background-image: url(../images/icon-bug.png);
+  background-size: cover;
+}
+
+.psychic {
+  background-image: url(../images/icon-psychic.png);
+  background-size: cover;
+}
+
+.flying {
+  background-image: url(../images/icon-flying.png);
+  background-size: cover;
+}
+
+.poison {
+  background-image: url(../images/icon-poison.png);
+  background-size: cover;
+}
