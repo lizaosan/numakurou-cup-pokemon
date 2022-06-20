@@ -24,7 +24,7 @@ h1 {
   margin-bottom: 0.25rem;
 }
 .vtb-item-players .vtb-player {
-  padding: 0;
+  padding: 0 !important;
   width: 10rem;
   height: 2rem;
   line-height: 2rem;
@@ -36,7 +36,7 @@ h1 {
 }
 
 .vtb-item-child:before, .vtb-item-child:after, .vtb-item-parent:after {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .vtb-item-players .vtb-player {
@@ -49,7 +49,7 @@ h1 {
 }
 
 .vtb-item-players .winner, .vtb-item-players .winner.highlight, .vtb-item-players .defeated, .vtb-item-players .defeated.highlight {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .type {
